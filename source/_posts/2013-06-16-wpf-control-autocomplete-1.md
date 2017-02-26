@@ -5,6 +5,7 @@ subtitle: "自动完成(AutoComplete)-1"
 description: "使用WPF实现自动完成功能，以百度首页为例，做了一个简单的dem"
 category: demo
 tags: [C#, WPF]
+cover: /cover/suggestion.jpg
 ---
 
 自动完成功能使用范围很广，多以TextBox或ComboBox的形式出现，在输入的同时给予候选词，候选词一般有两种方式获取。  

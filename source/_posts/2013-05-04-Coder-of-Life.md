@@ -5,6 +5,7 @@ subtitle: "我的软件"
 description: "介绍我编程人生中做过的东西"
 category: 感悟
 tags: [回忆]
+cover: /cover/coder.jpg
 ---
 
 其实将这些做过的东西列出，除了能自我回忆一番，剩下的就只有装逼。买显示器何尝不是装逼，买HHKB何尝不是装逼，自然不必在乎这一回。  

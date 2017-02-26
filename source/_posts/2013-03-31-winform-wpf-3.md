@@ -6,6 +6,7 @@ description: "本篇主要介绍CheckedListBox控件的全选实现，由于WPF�
 sourcecode: https://github.com/NanQi/demo/tree/master/SelectDemo
 category: demo
 tags: [C#, WPF, 闲话WinFrom与WPF]
+cover: /cover/framework.jpg
 ---
 
 我曾经写过一个[筛选的Demo](http://nanqi.info/blog/2012/12/05/filter/)，里面有一个列表选择控件：

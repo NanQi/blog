@@ -4,6 +4,7 @@ title: "视觉密码(VisualCrypto)"
 description: "介绍C#的一种实现视觉密码的方式"
 category: demo
 tags: [C#]
+cover: /cover/visualcrypto.jpg
 ---
 
 先看效果图：

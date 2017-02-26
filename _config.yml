@@ -20,9 +20,9 @@ permalink_defaults:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+# tag_dir: tags
+# archive_dir: archives
+# category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -87,7 +87,7 @@ deploy:
 ##              可使用基本图片处理、高级图片处理、图片水印处理这3个接口。例如 ?imageView2/2/w/500 即生成宽度最多500px的缩略图
 qiniu:
   offline: false
-  sync: true
+  sync: false
   bucket: nanqi
   secret_file: sec/qn.json
   dirPrefix: 

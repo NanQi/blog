@@ -5,6 +5,7 @@ subtitle: "控件篇——ComboBox"
 description: "本篇主要介绍ComboBox控件使用的一些问题"
 category: 备忘
 tags: [C#, WPF, 闲话WinFrom与WPF]
+cover: /cover/framework.jpg
 ---
 
 下拉框是一个很经典的控件，网上也有不少对于下拉框控件的扩展，其中包括与TreeView结合，做成树形选择；与DataGrid结合，做成列表选择；又或增加几个按钮来达到快捷编辑集合，选中项特殊显示等等。  

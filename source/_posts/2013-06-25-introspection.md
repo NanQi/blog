@@ -4,6 +4,7 @@ title: "工作2年，反省与总结"
 description: "工作2年，反省与总结"
 category: 感悟
 tags: [技术之外]
+cover: /cover/introspection.jpg
 ---
 
 前些日子特别烦躁，出差后，没时间烦躁。  

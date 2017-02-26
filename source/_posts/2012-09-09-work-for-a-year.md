@@ -4,6 +4,7 @@ title: "工作一年回首"
 description: "工作一年回首"
 category: 感悟
 tags: [回忆]
+cover: /cover/work-summary.jpg
 ---
 
 ## 先说现状

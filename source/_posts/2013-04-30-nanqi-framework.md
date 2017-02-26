@@ -6,6 +6,7 @@ description: "介绍正在使用的一套插件式开发框架，插件式开发
 sourcecode: https://github.com/NanQi/demo/tree/master/NanQi.Project
 category: demo
 tags: [C#, WinForm]
+cover: /cover/framework.jpg
 ---
 
 当我的[闲话WinFrom与WPF](http://www.cnblogs.com/nanqi/archive/2012/06/16/2551871.html)，还在进行的时候，突然出来介绍插件式开发框架，总觉得又会半途而废，最后偷懒，决定把这一篇定为闲话WinFrom与WPF的框架篇，倒也说的过去，反正还是使用WinForm，也没跑题。
