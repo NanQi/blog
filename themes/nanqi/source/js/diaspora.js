@@ -45,6 +45,7 @@ var Diaspora = {
     },
 
     PS: function() {
+
         if (!(window.history && history.pushState)) return;
 
         history.replaceState({u: Home, t: document.title}, document.title, Home)
@@ -383,10 +384,18 @@ $(function() {
         var tag = $(e.target).attr('class') || '',
             rel = $(e.target).attr('rel') || '';
 
+        // //add wx preview by NanQi
+        // if ($(e.target)[0].tagName === 'IMG' && $(e.target).closest('.markdown').length === 1) {
+        //     console.log($(e.target).attr('src'))
+        //     wx.previewImage({
+        //         current: 'https://img1.doubanio.com/icon/u34809295-89.jpg',
+        //         urls: ['https://img1.doubanio.com/icon/u34809295-89.jpg']
+        //     });
+        // }
+
         if (!tag && !rel) return;
 
         switch (true) {
-
             // nav menu
             case (tag.indexOf('switchmenu') != -1):
                 window.scrollTo(0, 0)
@@ -502,7 +511,7 @@ $(function() {
 
                 return false;
                 break;
-
+           
             default:
                 return;
                 break;

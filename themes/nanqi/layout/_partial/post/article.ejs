@@ -5,6 +5,12 @@
             <span><%- page.date.locale("zh-cn").format("MMMM DD, YYYY") %></span>
         </div>
         <div class="content markdown">
+            <% if ( page.cover ) { %>
+                <%- image_tag(page.cover, {width: "100%"}) %>
+            <% } %>
+            <% if ( page.titu ) { %>
+                <p class="titu"><%- page.titu %></p>
+            <% } %>
             <%- page.content %>
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="<%- theme.autoplay || "false" %>">

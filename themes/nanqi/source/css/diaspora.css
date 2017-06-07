@@ -175,7 +175,7 @@ h1.title {font-size:30px;color:#333;line-height:1.3;position:relative;font-weigh
   #post0 h2 a {color:#fff;}
   #post0 .summary {display:none;}
   .stuff span {margin-right:10px;}
-  .stuff span:first-child {display:none;}
+  /*.stuff span:first-child {display:none;}*/
 }
 
 /* Icon font style */
@@ -232,3 +232,8 @@ pre .string,pre .value,pre .inheritance,pre .header,pre .ruby .symbol,pre .xml .
 pre .css .hexcolor {color:#66cccc;}
 pre .function,pre .python .decorator,pre .python .title,pre .ruby .function .title,pre .ruby .title .keyword,pre .perl .sub,pre .javascript .title,pre .coffeescript .title {color:#6699cc;}
 pre .keyword,pre .javascript .function {color:#cc99cc;}
+
+/*nanqi*/
+.titu {text-align: right; font-size: 14px; color: rgb(178, 178, 178);margin-bottom: 10px;}
+video {margin-bottom: 10px; display: block;}
+.article .content p {margin-bottom: 10px;}
