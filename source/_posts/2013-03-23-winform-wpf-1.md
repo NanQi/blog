@@ -6,7 +6,7 @@ lasttime: 2013-05-25
 description: "本篇主要整理WPF中对应WinForm中名称的一些变动"
 category: 备忘
 tags: [C#, WPF, 闲话WinFrom与WPF]
-cover: /cover/framework.jpg
+cover: cover/framework.jpg
 ---
 
 2012年6月，我曾准备连载这个话题[闲话WinFrom与WPF](http://www.cnblogs.com/nanqi/archive/2012/06/16/2551871.html)，最后半途而废。  

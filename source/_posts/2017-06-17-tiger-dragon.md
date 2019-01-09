@@ -3,7 +3,7 @@ title: 【规矩】江湖
 date: 2017-06-17 10:28:45
 tags: 电影
 readtime: 5
-cover: /cover/tiger_dragon.jpg
+cover: cover/tiger_dragon.jpg
 titu: 题图为《卧虎藏龙》剧照
 mp3: /music/tiger_dragon.mp3
 ---

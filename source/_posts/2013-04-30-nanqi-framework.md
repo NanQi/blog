@@ -6,7 +6,7 @@ description: "介绍正在使用的一套插件式开发框架，插件式开发
 sourcecode: https://github.com/NanQi/demo/tree/master/NanQi.Project
 category: demo
 tags: [C#, WinForm]
-cover: /cover/framework.jpg
+cover: cover/framework.jpg
 ---
 
 当我的[闲话WinFrom与WPF](http://www.cnblogs.com/nanqi/archive/2012/06/16/2551871.html)，还在进行的时候，突然出来介绍插件式开发框架，总觉得又会半途而废，最后偷懒，决定把这一篇定为闲话WinFrom与WPF的框架篇，倒也说的过去，反正还是使用WinForm，也没跑题。
@@ -28,17 +28,17 @@ cover: /cover/framework.jpg
 
 首先安装项目Tools目录下NanQi.IDE.vsix扩展包，由于对VS扩展不熟，花了我不少时间去弄。  
 
-![安装vsix](/image/framework/framework1.png)
+![安装vsix](image/framework/framework1.png)
 
 安装好后，可以在工具-扩展管理器和帮助-关于中查看：  
 
-![扩展管理器](/image/framework/framework2.png)
+![扩展管理器](image/framework/framework2.png)
 
-![关于](/image/framework/framework3.png)
+![关于](image/framework/framework3.png)
 
 打开解决方案，展开Form1和Form2项目，在文件夹上点击右键，会发现多出来一个编译交易的选项。
 
-![编译交易](/image/framework/framework4.png)
+![编译交易](image/framework/framework4.png)
 
 每个页面可以说成一个交易，而编译交易就是把当前鼠标选择的文件夹下的页面编译成单独的DLL。  
 可以打开NanQi.Project.Host\bin\Debug\Trades查看编译的DLL文件。  

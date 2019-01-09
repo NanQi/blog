@@ -5,7 +5,7 @@ subtitle: "自动完成(AutoComplete)-1"
 description: "使用WPF实现自动完成功能，以百度首页为例，做了一个简单的dem"
 category: demo
 tags: [C#, WPF]
-cover: /cover/suggestion.jpg
+cover: cover/suggestion.jpg
 ---
 
 自动完成功能使用范围很广，多以TextBox或ComboBox的形式出现，在输入的同时给予候选词，候选词一般有两种方式获取。  
@@ -21,7 +21,7 @@ cover: /cover/suggestion.jpg
 
 我本想只做一个简单的例子，不涉及界面部分，但是一时兴起，做了一个山寨版的百度首页，界面费了不少时间。  
 
-![百度首页](/image/wpf/baidu.png)
+![百度首页](image/wpf/baidu.png)
 
 由于这里使用的是TextBox，所以重写了TextBox的模板，给里面放了一个Popup一个ListBox，然后对一些键盘鼠标事件进行操作，基本不难理解，至于Suggestion服务，就是解析json对象的问题，这里用现成的东西。  
 
@@ -68,7 +68,7 @@ cover: /cover/suggestion.jpg
     }
     
 
-![Suggestion](/image/wpf/suggestion.png)
+![Suggestion](image/wpf/suggestion.png)
 
 ##输入缓冲
 

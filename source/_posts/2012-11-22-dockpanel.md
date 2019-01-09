@@ -4,7 +4,7 @@ title: "WeifenLuo的DockPanel备忘"
 description: "记录在使用WeifenLuo的DockPanel控件时的一些问题"
 category: 备忘
 tags: [C#, 第三方控件, WinForm]
-cover: /cover/framework.jpg
+cover: cover/framework.jpg
 ---
 
 ##如何在双击窗体浮动时自定义其窗体属性
