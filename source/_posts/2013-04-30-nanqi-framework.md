@@ -28,17 +28,17 @@ cover: cover/framework.jpg
 
 首先安装项目Tools目录下NanQi.IDE.vsix扩展包，由于对VS扩展不熟，花了我不少时间去弄。  
 
-![安装vsix](image/framework/framework1.png)
+![安装vsix]\(http://img.youyag.com/blog/image/framework/framework1.png)
 
 安装好后，可以在工具-扩展管理器和帮助-关于中查看：  
 
-![扩展管理器](image/framework/framework2.png)
+![扩展管理器]\(http://img.youyag.com/blog/image/framework/framework2.png)
 
-![关于](image/framework/framework3.png)
+![关于]\(http://img.youyag.com/blog/image/framework/framework3.png)
 
 打开解决方案，展开Form1和Form2项目，在文件夹上点击右键，会发现多出来一个编译交易的选项。
 
-![编译交易](image/framework/framework4.png)
+![编译交易]\(http://img.youyag.com/blog/image/framework/framework4.png)
 
 每个页面可以说成一个交易，而编译交易就是把当前鼠标选择的文件夹下的页面编译成单独的DLL。  
 可以打开NanQi.Project.Host\bin\Debug\Trades查看编译的DLL文件。  

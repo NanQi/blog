@@ -17,7 +17,7 @@ cover: cover/work-summary.jpg
 
 前些天和一个群里的朋友谈起，也是兴平人，急着找工作把自己安顿。他说，我运气很好。姑且算是运气好吧，至少回想父母曾经说我，毕业肯定闲待一阵的预言，让我打破了。
 
-![记录1](image/work/work-for-a-year_1.jpg)
+![记录1]\(http://img.youyag.com/blog/image/work/work-for-a-year_1.jpg)
 
 公司很小，但是很自由。
 
@@ -31,69 +31,69 @@ cover: cover/work-summary.jpg
 
 某人告诉我：要感谢第一个收留自己的公司。我想，是的。前些天在手机上发现过年时记的几句话：12月26日庆祝，因为我23号提前庆祝；19号放假，因为我18号放假。2008年的12月26号是公司第一次签合同的日子，我因为一件事情，必须请假，23号公司算是因为我提前庆祝。过年是19号放假，我票买在了18号，公司18号就放假了。对于来公司只有三个月的我，也给发了1K当做年终奖。
 
-![记录2](image/work/work-for-a-year_2.jpg)
+![记录2]\(http://img.youyag.com/blog/image/work/work-for-a-year_2.jpg)
 
 回家前，某人喊着得了个终极技能，请我吃排骨，算是留念了。
 
 过年来后，某人的原因，搬了住处。
 
-![记录3](image/work/work-for-a-year_3.jpg)
+![记录3]\(http://img.youyag.com/blog/image/work/work-for-a-year_3.jpg)
 
 接下来的日子值得一说的就是几天的施工。
 
-![记录4](image/work/work-for-a-year_4.jpg)
+![记录4]\(http://img.youyag.com/blog/image/work/work-for-a-year_4.jpg)
 
 穿管子
 
-![记录5](image/work/work-for-a-year_5.jpg)
+![记录5]\(http://img.youyag.com/blog/image/work/work-for-a-year_5.jpg)
 
 搭脚手架
 
-![记录6](image/work/work-for-a-year_6.jpg)
+![记录6]\(http://img.youyag.com/blog/image/work/work-for-a-year_6.jpg)
 
 切割地面
 
-![记录7](image/work/work-for-a-year_7.jpg)
+![记录7]\(http://img.youyag.com/blog/image/work/work-for-a-year_7.jpg)
 
 封107国道
 
-![记录8](image/work/work-for-a-year_8.jpg)
+![记录8]\(http://img.youyag.com/blog/image/work/work-for-a-year_8.jpg)
 
 钻地道
 
 干的是很辛苦，终究都成了怀念。
 
-![记录9](image/work/work-for-a-year_9.jpg)
+![记录9]\(http://img.youyag.com/blog/image/work/work-for-a-year_9.jpg)
 
 植树节的前一天，去了重阳宫。
 
 5月选择离开公司，回了趟老家，中旬就进入现在的公司，星期五入职，上班没一周，就出差去泰安。
 
-![记录10](image/work/work-for-a-year_10.jpg)
+![记录10]\(http://img.youyag.com/blog/image/work/work-for-a-year_10.jpg)
 
 泰山站
 
-![记录11](image/work/work-for-a-year_11.jpg)
+![记录11]\(http://img.youyag.com/blog/image/work/work-for-a-year_11.jpg)
 
 爬泰山，逃票，没爬完。
 
-![记录12](image/work/work-for-a-year_12.jpg)
+![记录12]\(http://img.youyag.com/blog/image/work/work-for-a-year_12.jpg)
 
 去济南。
 
-![记录13](image/work/work-for-a-year_13.jpg)
+![记录13]\(http://img.youyag.com/blog/image/work/work-for-a-year_13.jpg)
 
 趵突泉。
 
-![记录14](image/work/work-for-a-year_14.jpg)
+![记录14]\(http://img.youyag.com/blog/image/work/work-for-a-year_14.jpg)
 
 大明湖。
 
-![记录15](image/work/work-for-a-year_15.jpg)
+![记录15]\(http://img.youyag.com/blog/image/work/work-for-a-year_15.jpg)
 
 回西安半月，出差焦作。
 
-![记录16](image/work/work-for-a-year_16.jpg)
+![记录16]\(http://img.youyag.com/blog/image/work/work-for-a-year_16.jpg)
 
 路过郑州。
 
@@ -102,11 +102,11 @@ cover: cover/work-summary.jpg
 
 焦作市商业银行。
 
-![记录17](image/work/work-for-a-year_17.jpg)
+![记录17]\(http://img.youyag.com/blog/image/work/work-for-a-year_17.jpg)
 
 期间去了云台山。
 
-![记录18](image/work/work-for-a-year_18.jpg)
+![记录18]\(http://img.youyag.com/blog/image/work/work-for-a-year_18.jpg)
 
 转战吕日周治下的长治。
 

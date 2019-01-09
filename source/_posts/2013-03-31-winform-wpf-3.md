@@ -11,7 +11,7 @@ cover: cover/framework.jpg
 
 我曾经写过一个[筛选的Demo](http://nanqi.info/blog/2012/12/05/filter/)，里面有一个列表选择控件：
 
-![列表选择](image/filter/filter.png)
+![列表选择]\(http://img.youyag.com/blog/image/filter/filter.png)
 
 这次只是说一个全选功能。  
 我曾经以为应该有更优雅的方式去实现全选功能，即使到现在我还是没有找到，有时候人们会告诉你不要对一个问题过于纠结，只要实现了功能就成，但是程序员往往不是这么想。  

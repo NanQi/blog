@@ -26,11 +26,11 @@ function findSync(startPath) {
 let statisConfig = [
     {
         bucket: 'image',
-        origin: 'http://img.youyag.com'
+        origin: 'http://img.youyag.com/'
     },
     {
         bucket: 'media',
-        origin: 'http://res.youyag.com'
+        origin: 'http://res.youyag.com/'
     }
 ]
 
@@ -48,7 +48,7 @@ statisConfig.forEach(conf => {
     });
 
     fileNames.forEach(filePath => {
-        let key = filePath.replace(/\\/g, '/').substr(staticPath.length + 1, filePath.length)
+        let key = 'blog/' + filePath.replace(/\\/g, '/').substr(staticPath.length + 1, filePath.length)
 
         client.uploadFile(filePath, { key }, function(err, result) {
             if(result) {
