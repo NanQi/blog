@@ -82,6 +82,7 @@ deploy:
 menu:
   About: /about
   Github: https://github.com/NanQi
+  CodeBlog: https://github.com/NanQi/blog/issues
   # Twitter: https://twitter.com/NanQi
 
 
