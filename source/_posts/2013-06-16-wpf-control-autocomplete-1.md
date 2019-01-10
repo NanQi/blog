@@ -15,13 +15,13 @@ cover: cover/suggestion.jpg
 
 由此可看出，自动完成功能，就是为了提高用户体验，如果稍稍留心，会发现我们使用操作系统，软件，浏览器的时候，有各式各样的自动完成功能。  
 
-##百度首页
+## 百度首页
 
 ---
 
 我本想只做一个简单的例子，不涉及界面部分，但是一时兴起，做了一个山寨版的百度首页，界面费了不少时间。  
 
-![百度首页]\(http://img.youyag.com/blog/image/wpf/baidu.png)
+![百度首页](http://img.youyag.com/blog/image/wpf/baidu.png)
 
 由于这里使用的是TextBox，所以重写了TextBox的模板，给里面放了一个Popup一个ListBox，然后对一些键盘鼠标事件进行操作，基本不难理解，至于Suggestion服务，就是解析json对象的问题，这里用现成的东西。  
 
@@ -68,9 +68,9 @@ cover: cover/suggestion.jpg
     }
     
 
-![Suggestion]\(http://img.youyag.com/blog/image/wpf/suggestion.png)
+![Suggestion](http://img.youyag.com/blog/image/wpf/suggestion.png)
 
-##输入缓冲
+## 输入缓冲
 
 ---
 
@@ -100,7 +100,7 @@ cover: cover/suggestion.jpg
     }
 
 
-##所遇问题
+## 所遇问题
 
 ---
 

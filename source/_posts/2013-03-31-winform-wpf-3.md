@@ -11,14 +11,14 @@ cover: cover/framework.jpg
 
 我曾经写过一个[筛选的Demo](http://nanqi.info/blog/2012/12/05/filter/)，里面有一个列表选择控件：
 
-![列表选择]\(http://img.youyag.com/blog/image/filter/filter.png)
+![列表选择](http://img.youyag.com/blog/image/filter/filter.png)
 
 这次只是说一个全选功能。  
 我曾经以为应该有更优雅的方式去实现全选功能，即使到现在我还是没有找到，有时候人们会告诉你不要对一个问题过于纠结，只要实现了功能就成，但是程序员往往不是这么想。  
 当我开始再一次用WinForm实现这个功能时，发现还是只能使用原来的方法，没有更好的方案去做这个。这要说还是由于WinForm过于死板，无法如WPF一般简单的实现自定义。  
 鉴于此Demo为本系列文章的第一篇WPF的Demo，这里尽量说的自己感觉易懂，仅仅展示重写模板的一些问题。  
 
-##WinForm中的实现方案
+## WinForm中的实现方案
 
 ---
 
@@ -49,7 +49,7 @@ cover: cover/framework.jpg
 和我当年使用DataGridView时在上面增加一个CheckBox列同样的问题：双击会出问题。  
 有兴趣的同学可以试试，我这里就不再演示了，类似的问题其实还有很多，涉及WinForm与WPF，但是往往都是，WPF中发现问题，可以很容易的使用其他方法解决，但是WinForm中解决起来就不是那么容易了。  
 
-##WPF中实现一个CheckedListBox
+## WPF中实现一个CheckedListBox
 
 ---
 
@@ -108,7 +108,7 @@ WPF的过于灵活，会让一个功能的实现有千万种写法，很多时�
 第二个样式主要的功能其实就是设置ListBoxItem的Margin属性，但是为什么当初没有把这个值直接写在第一个样式中。  
 这时候有人会说，我可以在外面再重写模板一样可以实现，是的，一样可以，但是为什么要偏偏这么说呢，孰优孰劣，一眼便知。  
 
-##WPF中的实现方案
+## WPF中的实现方案
 
 ---
 

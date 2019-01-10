@@ -14,7 +14,7 @@
             <%- page.content %>
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="<%- theme.autoplay || "false" %>">
-                <source type="audio/mpeg" src="<%- config.cnd_img_url + (page.mp3 || theme.mp3) %>">
+                <source type="audio/mpeg" src="<%- config.cnd_res_url + (page.mp3 || theme.mp3) %>">
             </audio>
         </div>
         <!--<div class="comment link">添加评论</div>-->

@@ -24,7 +24,7 @@ cover: cover/placeholder.jpg
 
 首先熟悉一点WPF的人都知道，placeholder在这里是一个附加属性，而这个附加属性的类型是String。  
 
-##第一种实现方式
+## 第一种实现方式
 
 ---
 
@@ -107,7 +107,7 @@ txt.GotFocus += (s1, e1) =>
 * 接之而来的问题就是如果TextBox恰巧需要设置FontStyle或Foreground，此时就无能为力；
 * 其实最重要的问题还是，当我没有输入内容时，获取TextBox的Text属性，总有一个我不需要的值，或许加个判断可以搞定，但是这不是一个好的方式；
 
-##使用装饰器实现-1
+## 使用装饰器实现-1
 
 ---
 
@@ -225,7 +225,7 @@ txt.GotFocus += (s1, e1) =>
 
 * 当隐藏（设置TextBox的Visibility为Hidden时），发现TextBox隐藏了，但是装饰器还存在。  
 
-##使用装饰器实现-2
+## 使用装饰器实现-2
 
 ---
 
@@ -279,7 +279,7 @@ txt.GotFocus += (s1, e1) =>
 
 这段代码当然直接可以写在OnPlaceholder2Changed事件处理函数中。  
 
-##装饰器的另一种实现方式
+## 装饰器的另一种实现方式
 
 ---
 
