@@ -32,6 +32,9 @@ date: 2013-05-03 14:39:12
 * [SQL语句生成][12]
 * [插件式开发框架][13]
 * [VSXMusic编码听音乐][14]
+* [宝石TD迷宫设计器][15]
+* [自动充值机][16]
+* [区块链上的时间胶囊][17]
 
 [1]: #War3
 [2]: #AddressBook
@@ -46,7 +49,10 @@ date: 2013-05-03 14:39:12
 [11]: #LifeGame
 [12]: #sqlbuilder
 [13]: #framework
-[13]: #VSXMusic
+[14]: #VSXMusic
+[15]: #GemTD
+[16]: #aps
+[16]: #time-capsule
 
 ---
 
@@ -62,7 +68,7 @@ date: 2013-05-03 14:39:12
 
 ![war3](http://img.youyag.com/blog/image/myprogram/war3.jpg)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/War3](https://github.com/NanQi/demo/tree/master/War3)
+下载地址：https://github.com/NanQi/demo/tree/master/War3
 
 ---
 
@@ -97,7 +103,7 @@ date: 2013-05-03 14:39:12
 
 ![Elevator](http://img.youyag.com/blog/image/myprogram/Elevator.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/Elevator](https://github.com/NanQi/demo/tree/master/Elevator)
+下载地址：https://github.com/NanQi/demo/tree/master/Elevator
 
 ---
 
@@ -117,7 +123,7 @@ date: 2013-05-03 14:39:12
 
 ![tianlong](http://img.youyag.com/blog/image/myprogram/tianlong.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/Game/](https://github.com/NanQi/demo/tree/master/Game)
+下载地址：https://github.com/NanQi/demo/tree/master/Game
 
 ---
 
@@ -138,7 +144,7 @@ date: 2013-05-03 14:39:12
 
 ![renzhe](http://img.youyag.com/blog/image/myprogram/renzhe.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/Game/](https://github.com/NanQi/demo/tree/master/Game)
+下载地址：https://github.com/NanQi/demo/tree/master/Game
 
 ---
 
@@ -157,7 +163,7 @@ date: 2013-05-03 14:39:12
 
 ![CustomerService](http://img.youyag.com/blog/image/myprogram/CustomerService.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/CustomerService](https://github.com/NanQi/demo/tree/master/CustomerService)
+下载地址：https://github.com/NanQi/demo/tree/master/CustomerService
 
 ---
 
@@ -175,7 +181,7 @@ date: 2013-05-03 14:39:12
 
 ![Irrigation](http://img.youyag.com/blog/image/myprogram/Irrigation.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/App/Irrigation](https://github.com/NanQi/demo/tree/master/App/Irrigation)
+下载地址：https://github.com/NanQi/demo/tree/master/App/Irrigation
 
 ---
 
@@ -192,7 +198,7 @@ date: 2013-05-03 14:39:12
 
 ![ColorBlindness](http://img.youyag.com/blog/image/myprogram/ColorBlindness.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/App/ColorBlindness](https://github.com/NanQi/demo/tree/master/App/ColorBlindness)
+下载地址：https://github.com/NanQi/demo/tree/master/App/ColorBlindness
 
 ---
 
@@ -209,7 +215,7 @@ date: 2013-05-03 14:39:12
 
 ![SchulteGrid](http://img.youyag.com/blog/image/myprogram/SchulteGrid.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/App/SchulteGrid](https://github.com/NanQi/demo/tree/master/App/SchulteGrid)
+下载地址：https://github.com/NanQi/demo/tree/master/App/SchulteGrid
 
 ---
 
@@ -221,11 +227,11 @@ date: 2013-05-03 14:39:12
 语言：C#  
 回报：无
 
-可以参加我的另一篇博客——《{% post_link visualcrypto %}》
+可以参见我的另一篇博客——《{% post_link visualcrypto %}》
 
 ![VisualCrypto](http://img.youyag.com/blog/image/VisualCrypto/VisualCrypto_5.jpg)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/VisualCrypto](https://github.com/NanQi/demo/tree/master/VisualCrypto)
+下载地址：https://github.com/NanQi/demo/tree/master/VisualCrypto
 
 ---
 
@@ -237,11 +243,11 @@ date: 2013-05-03 14:39:12
 语言：C#  
 回报：无
 
-可以参加我的另一篇博客——《{% post_link lifegame %}》
+可以参见我的另一篇博客——《{% post_link lifegame %}》
 
 ![VisualCrypto](http://img.youyag.com/blog/image/LifeGame/LifeGame_1.jpg)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/LifeGame](https://github.com/NanQi/demo/tree/master/LifeGame)
+下载地址：https://github.com/NanQi/demo/tree/master/LifeGame
 
 ---
 
@@ -253,11 +259,11 @@ date: 2013-05-03 14:39:12
 语言：C#  
 回报：无
 
-可以参加我的另一篇博客——《{% post_link sqlbuilder-1 %}》
+可以参见我的另一篇博客——《{% post_link sqlbuilder-1 %}》
 
 ![VisualCrypto](http://img.youyag.com/blog/image/sqlbuilder/sqlbuilder1.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/SQLBuilderDemo](https://github.com/NanQi/demo/tree/master/SQLBuilderDemo)
+下载地址：https://github.com/NanQi/demo/tree/master/SQLBuilderDemo
 
 ---
 
@@ -269,11 +275,11 @@ date: 2013-05-03 14:39:12
 语言：C#  
 回报：无
 
-可以参加我的另一篇博客——《{% post_link nanqi-framework %}》。  
+可以参见我的另一篇博客——《{% post_link nanqi-framework %}》。  
 
 ![framework](http://img.youyag.com/blog/image/framework/framework1.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/NanQi.Framework](https://github.com/NanQi/demo/tree/master/NanQi.Framework)
+下载地址：https://github.com/NanQi/demo/tree/master/NanQi.Framework
 
 ---
 
@@ -285,11 +291,58 @@ date: 2013-05-03 14:39:12
 语言：C#  
 回报：无
 
-可以参加我的另一篇博客——[插件式开发框架](http://nanqi.info/blog/2013/04/30/nanqi-framework/)。  
+可以参见我的另一篇博客——《{% post_link vsx-5 %}》。 
 
-![framework](http://img.youyag.com/blog/image/framework/VSXMusic.png)
+![VSXMusic](http://img.youyag.com/blog/image/myprogram/VSXMusic.png)
 
-下载地址：[https://github.com/NanQi/demo/tree/master/NanQi.Framework](https://github.com/NanQi/demo/tree/master/NanQi.Framework)
+下载地址：https://github.com/NanQi/VSXMusic
 
 ---
 
+<section id="GemTD"/>
+### 宝石TD迷宫设计器
+
+时间：2015年1月  
+历时：1-2天  
+语言：C#  
+回报：无
+
+可以参见我的另一篇博客——《{% post_link gem-td %}》。 
+
+![GemTD](http://img.youyag.com/blog/image/myprogram/gem-td.png)
+
+下载地址：https://github.com/NanQi/GemTD
+
+---
+
+<section id="aps"/>
+### 自动充值机
+
+时间：2015年10月  
+历时：2-5天  
+语言：C#  
+回报：无
+
+自动充值机大概是是2015年10月多做的，当时去靖边现场去了两天搞定了，之后改了很多次，姑且算2-5天吧。
+
+![aps](http://img.youyag.com/blog/image/myprogram/aps.png)
+
+就是给食堂的饭卡做充值用的，一个触摸屏机器，配备有读卡器、识币器、打印机等功能，上面的截图是2018年改版后的界面。
+
+---
+
+<section id="time-capsule"/>
+### 区块链上的时间胶囊
+
+时间：2018年3月  
+历时：5-8天  
+语言：js,solidity
+回报：无
+
+在区块链如日中天的时候，我做了一款区块链上的时间胶囊，因为找了一圈，发现时间胶囊的应用算是最适合区块链技术去做（自己现在能实现的前提下）。
+
+![time-capsule](http://img.youyag.com/blog/image/myprogram/time-capsule.png)
+
+下载地址：https://github.com/NanQi/time-capsule
+
+---

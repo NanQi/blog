@@ -3,6 +3,7 @@
 <head>
 	<title>有丫</title>
 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 </head>
 <body>
 	<div id="loading"></div>
@@ -313,12 +314,12 @@
 		var e, obj = document.createElement("div"),
 			verIEfull = null;
 		if (!verIEfull || parseInt(verIEfull) > 8) {
-			var WolframAlphaLatencyAnimation = new LatencyAnimation();
+			var latencyAnimation = new LatencyAnimation();
 			var startCycle = 0;
-			WolframAlphaLatencyAnimation.init(document.getElementById("loading"));
-			WolframAlphaLatencyAnimation.start(false, startCycle, 0);
+			latencyAnimation.init(document.getElementById("loading"));
+			latencyAnimation.start(false, startCycle, 0);
 			var iterationsStorage = function (B) {
-				localStorage.setItem("iterations", WolframAlphaLatencyAnimation.iterations.toString())
+				localStorage.setItem("iterations", latencyAnimation.iterations.toString())
 			};
 			if (window.addEventListener) {
 				window.addEventListener("unload", iterationsStorage)

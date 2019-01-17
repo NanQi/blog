@@ -290,7 +290,7 @@ $(function() {
 
             setTimeout(function() {
                 $('html, body').removeClass('loading')
-            }, 1000)
+            }, 700)
 
             $('#mark').parallax()
 

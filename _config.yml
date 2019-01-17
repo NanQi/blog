@@ -80,9 +80,10 @@ deploy:
 
 # Header Menu. title: link
 menu:
-  About: /about
+  我的简历: /resume
+  我的软件: /2013/05/03/my-program
+  技术博客: https://github.com/NanQi/blog/issues
   Github: https://github.com/NanQi
-  CodeBlog: https://github.com/NanQi/blog/issues
   # Twitter: https://twitter.com/NanQi
 
 
