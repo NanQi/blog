@@ -4,10 +4,10 @@ title: "WeifenLuo的DockPanel备忘"
 description: "记录在使用WeifenLuo的DockPanel控件时的一些问题"
 category: 备忘
 tags: [C#, 第三方控件, WinForm]
-cover: /cover/framework.jpg
+cover: cover/framework.jpg
 ---
 
-##如何在双击窗体浮动时自定义其窗体属性
+## 如何在双击窗体浮动时自定义其窗体属性
 
 ---
 一个普遍的问题，一直以来都没有去解决，觉得无伤大雅。最后还是在同事的不断催促下才琢磨着怎么弄。说来平平无奇，只是在Form上又套了一层Form。具体步骤如下：

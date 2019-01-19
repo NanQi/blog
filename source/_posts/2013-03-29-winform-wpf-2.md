@@ -5,13 +5,13 @@ subtitle: "控件篇——ComboBox"
 description: "本篇主要介绍ComboBox控件使用的一些问题"
 category: 备忘
 tags: [C#, WPF, 闲话WinFrom与WPF]
-cover: /cover/framework.jpg
+cover: cover/framework.jpg
 ---
 
 下拉框是一个很经典的控件，网上也有不少对于下拉框控件的扩展，其中包括与TreeView结合，做成树形选择；与DataGrid结合，做成列表选择；又或增加几个按钮来达到快捷编辑集合，选中项特殊显示等等。  
 对于复杂的组合控件，我这里就不必多说，只说说原生ComboBox的一些应用。  
 
-##绑定数据源
+## 绑定数据源
 
 ---
 
@@ -34,7 +34,7 @@ WinForm中指定`DisplayMember`与`ValueMember`属性，WPF中指定`DisplayMemb
 
 如果不拘于形式而言，一般完全可以使用No替换GUID，不管怎样，现在就是想要既获得主键列的值，又想显示`No + Name`的形式。  
 
-###重写ToString的一种实现方式
+### 重写ToString的一种实现方式
 
 ---
 
@@ -59,7 +59,7 @@ WinForm中指定`DisplayMember`与`ValueMember`属性，WPF中指定`DisplayMemb
 
 因为WinForm的这个问题，我们可能会使用另一种`万能`方式去获取选择项的某列值——使用`SelectedItem`属性。之所以现在才说，是因为`SelectedItem`属性是一个`object`类型，这样在我这个程序里，可能是`UserModel`，在另一个程序里，可能是`DataViewRow`，虽然`万能`，但实现不够优雅。  
 
-###添加一个属性
+### 添加一个属性
 
 ---
 
@@ -77,7 +77,7 @@ WinForm中指定`DisplayMember`与`ValueMember`属性，WPF中指定`DisplayMemb
 
 也可以不重写`ToString`，而是把`ToString`中的代码移过来。  
 
-##自动提示(AutoComplete)
+## 自动提示(AutoComplete)
 
 ---
 

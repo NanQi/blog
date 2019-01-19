@@ -65,14 +65,24 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: nanqi
 
+cnd_img_url: http://img.youyag.com/blog/
+cnd_res_url: http://res.youyag.com/blog/
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: sftp
+  host: 118.126.105.193
+  port: 22
+  user: root
+  remotePath: /data/release/blog
+  privateKey: c:\Users\NanQi\nanqi\id_rsa
 
 # Header Menu. title: link
 menu:
-  About: /about
+  我的简历: /resume
+  我的软件: /2013/05/03/my-program
+  技术博客: https://github.com/NanQi/blog/issues
   Github: https://github.com/NanQi
   # Twitter: https://twitter.com/NanQi
 
@@ -80,11 +90,11 @@ menu:
 # 查看文章时是否自动播放音乐
 autoplay: true
 # 博客文章默认音乐, 优先级: 1.文章头mp3参数> 2.在这里配置
-mp3: http://nanqi.my2space.com/music/This-Heart-is-a-Stone.mp3
+mp3: This-Heart-is-a-Stone.mp3
 # 首页封面图, 优先级: 1.在这里配置> 2.文章头cover参数;
-welcome_cover: /image/banner.jpg
+welcome_cover: image/default-banner.jpg
 # 文章封面图, 优先级: 1.文章头cover参数 > 2.在这里配置
-cover: /image/cover.jpg
+cover: image/default-cover.jpg
 
 
 keywords: 

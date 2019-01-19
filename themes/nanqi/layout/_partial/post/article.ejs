@@ -6,7 +6,7 @@
         </div>
         <div class="content markdown">
             <% if ( page.cover ) { %>
-                <%- image_tag(page.cover, {width: "100%"}) %>
+                <%- image_tag(config.cnd_img_url + page.cover, {width: "100%"}) %>
             <% } %>
             <% if ( page.titu ) { %>
                 <p class="titu"><%- page.titu %></p>
@@ -14,7 +14,7 @@
             <%- page.content %>
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="<%- theme.autoplay || "false" %>">
-                <source type="audio/mpeg" src="<%- page.mp3 || theme.mp3 %>">
+                <source type="audio/mpeg" src="<%- config.cnd_res_url + (page.mp3 || theme.mp3) %>">
             </audio>
         </div>
         <!--<div class="comment link">添加评论</div>-->

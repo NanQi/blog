@@ -6,7 +6,7 @@ description: "介绍正在使用的一套插件式开发框架，插件式开发
 sourcecode: https://github.com/NanQi/demo/tree/master/NanQi.Project
 category: demo
 tags: [C#, WinForm]
-cover: /cover/framework.jpg
+cover: cover/framework.jpg
 ---
 
 当我的[闲话WinFrom与WPF](http://www.cnblogs.com/nanqi/archive/2012/06/16/2551871.html)，还在进行的时候，突然出来介绍插件式开发框架，总觉得又会半途而废，最后偷懒，决定把这一篇定为闲话WinFrom与WPF的框架篇，倒也说的过去，反正还是使用WinForm，也没跑题。
@@ -18,7 +18,7 @@ cover: /cover/framework.jpg
 
 本篇文章不是谈论管理软件的发展，不论领导说的正确与否，以上都属闲话，所以还是到此为止。
 
-##简介
+## 简介
 
 ---
 
@@ -28,17 +28,17 @@ cover: /cover/framework.jpg
 
 首先安装项目Tools目录下NanQi.IDE.vsix扩展包，由于对VS扩展不熟，花了我不少时间去弄。  
 
-![安装vsix](/image/framework/framework1.png)
+![安装vsix](http://img.youyag.com/blog/image/framework/framework1.png)
 
 安装好后，可以在工具-扩展管理器和帮助-关于中查看：  
 
-![扩展管理器](/image/framework/framework2.png)
+![扩展管理器](http://img.youyag.com/blog/image/framework/framework2.png)
 
-![关于](/image/framework/framework3.png)
+![关于](http://img.youyag.com/blog/image/framework/framework3.png)
 
 打开解决方案，展开Form1和Form2项目，在文件夹上点击右键，会发现多出来一个编译交易的选项。
 
-![编译交易](/image/framework/framework4.png)
+![编译交易](http://img.youyag.com/blog/image/framework/framework4.png)
 
 每个页面可以说成一个交易，而编译交易就是把当前鼠标选择的文件夹下的页面编译成单独的DLL。  
 可以打开NanQi.Project.Host\bin\Debug\Trades查看编译的DLL文件。  
@@ -58,7 +58,7 @@ cover: /cover/framework.jpg
 有人看到这里可能觉得这样做太麻烦了。  
 是的，这是因为demo中的vs扩展还没有做新建交易，新建交易项目等一些功能，现在这些都需要手动完成，如果把新建交易的功能添加上，只需要在交易项目上点击右键，选择新建交易，填入交易名称和描述即可完成所有新建任务，然后点击右键编译交易即可完成。  
 
-##优点与缺点
+## 优点与缺点
 
 ---
 
@@ -70,7 +70,7 @@ VS扩展如果再进一步，完全可以让页面开发人员做到传说中的
 缺点主要一点是由于各个页面在独立的DLL中，无法相互调用、传递数据就比较困难，即使最简单的ShowDialog可能都变得十分麻烦。这时候，可能框架就需要提供一些方法去做这些事情。  
 而由于将原本一个项目分为两个，就带来了使用的不方便，每次框架修改完，必须生成相应的DLL，然后放在项目层的Lib下。而调试框架就要使用附加到进程的方式去调试。
 
-##关于demo
+## 关于demo
 
 ---
 
