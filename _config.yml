@@ -80,7 +80,7 @@ deploy:
 
 # Header Menu. title: link
 menu:
-  我的简历: /resume
+  我的简历: http://resume.youyag.com
   我的软件: /2013/05/03/my-program
   技术博客: https://github.com/NanQi/blog/issues
   Github: https://github.com/NanQi
